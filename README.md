@@ -34,4 +34,28 @@ Este é um projeto Django produzido para a matéria de Projeto de Software do cu
    ```bash
    git clone https://github.com/saskuati-dev/projeto.git
    cd SIAD
+   
+2. Instale as Dependências
+
+   ```bash
    pip install -r requirements.txt
+   
+3. Crie as configurações do Banco de Dados
+   ```bash
+   python manage.py makemigrations
+   
+4. Atualize o Banco de Dados
+
+   ```bash
+   python manage.py migrate
+   
+5. Configure o Banco de Dados
+
+   ```bash
+   python manage.py migrate
+   
+6. Inicie o Servidor
+
+   ```bash
+   python manage.py runserver
+
