@@ -34,3 +34,4 @@ Este é um projeto Django produzido para a matéria de Projeto de Software do cu
    ```bash
    git clone https://github.com/saskuati-dev/projeto.git
    cd SIAD
+   pip install -r requirements.txt
