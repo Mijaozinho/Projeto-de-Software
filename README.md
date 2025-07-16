@@ -3,7 +3,7 @@ SIAD Sistema de Inscrição e Acompanhamento Desportivo da UEPG
 Projeto de Software Sistema de Inscrições e Acompanhamento Desportivo (SIAD)
 Este é um projeto Django produzido para a matéria de projeto de software do cuso de Eng. de Computação, para gerenciar eventos esportivos, incluindo modalidades, divisões, grupos, e atletas. O projeto também permite a administração de notícias e editais relacionados aos eventos.
 
-Funcionalidades
+# Funcionalidades
 Gestão de Eventos: Criação e administração de eventos esportivos.
 Gestão de Grupos e Modalidades: Adição e exclusão de grupos e modalidades para cada evento.
 Gestão de Divisões: Adição e exclusão de divisões para cada modalidade.
