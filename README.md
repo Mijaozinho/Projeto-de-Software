@@ -92,8 +92,11 @@ Acesse a área administrativa em [http://127.0.0.1:8000/admin/](http://127.0.0.1
 ## Desenvolvimento
 
 ### Estrutura do Projeto
+
+```text
 projeto/
-├── app_siad/ # Contém modelos, formulários e views da aplicação
-├── templates/ # Templates HTML para renderização das páginas
-├── static/ # Arquivos estáticos (CSS, JavaScript)
-└── media/ # Arquivos de mídia (imagens, documentos)
+├── app_siad/          # Contém modelos, formulários e views (visualizações) da aplicação
+├── templates/         # Templates HTML para renderização das páginas
+├── static/            # Arquivos estáticos (CSS, JavaScript, imagens)
+└── media/             # Arquivos de mídia enviados pelos usuários (documentos, imagens)
+```
