@@ -59,3 +59,36 @@ Este é um projeto Django produzido para a matéria de Projeto de Software do cu
    ```bash
    python manage.py runserver
 
+7. Navegue até a aplicação
+   Acesse http://127.0.0.1:8000/ para ver a aplicação em funcionamento.
+
+## Uso
+
+### Acesso à Área Administrativa
+Acesse a área administrativa em [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) usando as credenciais do superusuário que você criou durante a configuração inicial do projeto.
+
+### Recursos Disponíveis
+
+- **Eventos**: Crie, edite e visualize eventos esportivos
+- **Grupos e Modalidades**: Adicione e administre grupos e modalidades dentro dos eventos
+- **Divisões**: Gerencie divisões para modalidades
+- **Notícias**: Publique e visualize notícias
+- **Editais**: Faça upload e gerencie editais de eventos
+
+### Regras de Acesso
+
+- **Administrador Esportivo**: Tem acesso completo à administração de:
+  - Eventos
+  - Grupos
+  - Modalidades
+  - Divisões
+  - Notícias
+  - Editais
+
+- **Representante Esportivo**: Pode:
+  - Acessar e gerenciar suas próprias inscrições
+  - Visualizar eventos e editais
+
+## Desenvolvimento
+
+### Estrutura do Projeto
